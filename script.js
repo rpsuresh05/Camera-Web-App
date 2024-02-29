@@ -4,7 +4,7 @@ let captureBtnCont = document.querySelector('.capture-btn-cont');
 let recordBtn = document.querySelector('.record-btn');
 let captureBtn = document.querySelector('.capture-btn');
 let recordFlag = false;
-let transparentColor = '';
+let transparentColor = 'transparent';
 
 let recorder;
 

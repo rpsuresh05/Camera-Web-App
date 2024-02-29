@@ -144,3 +144,16 @@ video {
     width: 100vw;
     z-index: 1;
 }
+
+.gallery-icon {
+    color: white;
+    font-size: 3rem;
+    top: 36rem;
+    right: 6rem;
+    position: absolute;
+    z-index: 2
+}
+
+.gallery-icon:hover {
+    cursor: pointer;
+}
