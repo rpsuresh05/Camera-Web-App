@@ -71,6 +71,9 @@ recordBtnCont.addEventListener('click', (e) => {
 });
 
 captureBtnCont.addEventListener('click', (e) => {
+
+    captureBtn.classList.add('scale-capture');
+
     let canvas = document.createElement("canvas");
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
@@ -93,6 +96,9 @@ captureBtnCont.addEventListener('click', (e) => {
         imageStore.add(imageEntry)
     }
 
+    setTimeout(() => {
+        captureBtn.classList.remove('scale-capture');
+    }, 500);
     // let a = document.createElement("a");
     // a.href = imageURL;
     // a.download = "image.jpg";

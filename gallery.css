@@ -53,6 +53,10 @@ body {
 
 }
 
+.action-btn:hover {
+    cursor: pointer;
+}
+
 .media {
     height: calc(100% - 2rem - 2rem);
     background-color: orange;
